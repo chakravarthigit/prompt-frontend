@@ -1,0 +1,6 @@
+/* Custom CSS to increase favicon size in browser tabs */
+/* Note: These styles may not work in all browsers but can help in some */
+link[rel="icon"] {
+  width: 48px !important;
+  height: 48px !important;
+} 

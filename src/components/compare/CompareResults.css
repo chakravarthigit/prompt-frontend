@@ -1,0 +1,135 @@
+/* CompareResults.css */
+.response-content {
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Code block styling */
+.code-block {
+  margin: 16px 0;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  background-color: #f8fafc;
+}
+
+.code-header {
+  background-color: #e2e8f0;
+  color: #475569;
+  font-family: monospace;
+  font-size: 0.85em;
+  padding: 4px 12px;
+  text-transform: lowercase;
+  font-weight: bold;
+}
+
+.code-block pre {
+  margin: 0;
+  padding: 12px;
+  overflow-x: auto;
+  font-family: monospace;
+  font-size: 0.95em;
+  line-height: 1.5;
+  background-color: #f8fafc;
+}
+
+.code-block code {
+  white-space: pre;
+  word-break: normal;
+  word-wrap: normal;
+}
+
+/* Inline code styling */
+.inline-code {
+  background-color: #f1f5f9;
+  color: #6366f1;
+  font-family: monospace;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 0.95em;
+}
+
+/* List styling */
+.response-content ul, .response-content ol {
+  padding-left: 24px;
+  margin: 12px 0;
+}
+
+.response-content ul li, .response-content ol li {
+  margin-bottom: 6px;
+}
+
+/* Table styling */
+.response-content table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 16px 0;
+  border: 1px solid #e2e8f0;
+}
+
+.response-content th, .response-content td {
+  padding: 8px 12px;
+  text-align: left;
+  border: 1px solid #e2e8f0;
+}
+
+.response-content th {
+  background-color: #f1f5f9;
+  font-weight: 600;
+}
+
+/* Headings */
+.response-content h1, .response-content h2, .response-content h3, 
+.response-content h4, .response-content h5, .response-content h6 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.response-content h1 {
+  font-size: 1.5em;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 8px;
+}
+
+.response-content h2 {
+  font-size: 1.3em;
+}
+
+.response-content h3 {
+  font-size: 1.2em;
+}
+
+.response-content h4 {
+  font-size: 1.1em;
+}
+
+/* Blockquote styling */
+.response-content blockquote {
+  border-left: 4px solid #6366f1;
+  margin: 12px 0;
+  padding: 8px 16px;
+  background-color: #f1f5f9;
+  color: #4b5563;
+}
+
+/* Emphasis */
+.response-content strong {
+  font-weight: 600;
+}
+
+.response-content em {
+  font-style: italic;
+}
+
+/* Links */
+.response-content a {
+  color: #6366f1;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.response-content a:hover {
+  color: #4f46e5;
+} 

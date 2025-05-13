@@ -1,0 +1,64 @@
+/* Custom CSS classes */
+.perspective-1000 {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+.min-h-90 {
+  min-height: 70px;
+}
+
+/* Animation classes */
+.flip-enter {
+  transform: rotateY(90deg);
+  opacity: 0;
+}
+
+.flip-enter-active {
+  transform: rotateY(0deg);
+  opacity: 1;
+  transition: all 500ms ease-out;
+}
+
+.flip-exit {
+  transform: rotateY(0deg);
+  opacity: 1;
+}
+
+.flip-exit-active {
+  transform: rotateY(-90deg);
+  opacity: 0;
+  transition: all 300ms ease-in;
+}
+
+/* Navbar scroll animations */
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+}
+
+.navbar-hidden {
+  transform: translateY(-100%);
+}
+
+.navbar-visible {
+  transform: translateY(0);
+}
+
+.navbar-transition {
+  transition: transform 0.3s ease;
+}
+
+/* Show navbar on hover near top of page */
+.navbar-hidden:hover,
+.navbar-sentinel:hover + .navbar-hidden {
+  transform: translateY(0);
+}
+
+/* Transition for main content when navbar changes */
+.transition-padding {
+  transition: padding 0.3s ease;
+} 
